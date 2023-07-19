@@ -15,7 +15,7 @@ export const ApplicationViews = () => {
 	let navigate = useNavigate();
 	useEffect(() => {
 
-		console.log(localStorage.getItem("kennel_customer"))
+		console.log(localStorage.getItem("kennels_customer"))
 		if (localStorage.getItem("kennels_customer") === null) {
 			return navigate("/login")
 		}

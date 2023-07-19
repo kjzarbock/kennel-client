@@ -13,9 +13,12 @@
   flex-basis: 24%;
   margin: 0.5rem 1em;
   padding: 0.5rem 1rem;
-  border: 1px solid goldenrod;
+  border: 2px solid rgb(35, 85, 129);
+  background-color: aliceblue;
 }
 
 .animals__search {
   width: 25rem;
 }
+
+
